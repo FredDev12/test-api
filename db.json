@@ -1,0 +1,2805 @@
+{
+  "ecoles": [
+    {
+      "id": "1",
+      "nom": "Institut Lumumba"
+    },
+    {
+      "id": "2",
+      "nom": "Collège Kasa-Vubu"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Super Admin",
+      "role": "ADMIN_GENERALE"
+    },
+    {
+      "id": "2",
+      "name": "Admin E1",
+      "role": "ADMIN_ECOLE",
+      "ecoleId": 1
+    },
+    {
+      "id": "3",
+      "name": "Admin E2",
+      "role": "ADMIN_ECOLE",
+      "ecoleId": 2
+    },
+    {
+      "id": "4",
+      "name": "Paul Kabeya",
+      "role": "PROFESSEUR",
+      "teacherId": 1,
+      "ecoleId": 1
+    },
+    {
+      "id": "5",
+      "name": "Sophie Ngoma",
+      "role": "PROFESSEUR",
+      "teacherId": 2,
+      "ecoleId": 1
+    },
+    {
+      "id": "6",
+      "name": "Jean Mbuyi",
+      "role": "PROFESSEUR",
+      "teacherId": 3,
+      "ecoleId": 1
+    },
+    {
+      "id": "7",
+      "name": "Alice Mukendi",
+      "role": "PROFESSEUR",
+      "teacherId": 4,
+      "ecoleId": 2
+    },
+    {
+      "id": "8",
+      "name": "Eric Kalonji",
+      "role": "PROFESSEUR",
+      "teacherId": 5,
+      "ecoleId": 2
+    },
+    {
+      "id": "9",
+      "name": "Nadia Kasongo",
+      "role": "PROFESSEUR",
+      "teacherId": 6,
+      "ecoleId": 2
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "nom": "Amina Kapinga",
+      "matricule": "E1-2025-001",
+      "photoUrl": "",
+      "classeId": 1,
+      "ecoleId": 1
+    },
+    {
+      "id": "2",
+      "nom": "Patrick K.",
+      "matricule": "E1-2025-002",
+      "photoUrl": "",
+      "classeId": 1,
+      "ecoleId": 1
+    },
+    {
+      "id": "3",
+      "nom": "Joseph Ilunga",
+      "matricule": "E1-2025-003",
+      "photoUrl": "",
+      "classeId": 2,
+      "ecoleId": 1
+    },
+    {
+      "id": "4",
+      "nom": "Esther Tshibola",
+      "matricule": "E1-2025-004",
+      "photoUrl": "",
+      "classeId": 2,
+      "ecoleId": 1
+    },
+    {
+      "id": "5",
+      "nom": "Samuel Mwamba",
+      "matricule": "E1-2025-005",
+      "photoUrl": "",
+      "classeId": 3,
+      "ecoleId": 1
+    },
+    {
+      "id": "6",
+      "nom": "Prisca Mutombo",
+      "matricule": "E1-2025-006",
+      "photoUrl": "",
+      "classeId": 3,
+      "ecoleId": 1
+    },
+    {
+      "id": "7",
+      "nom": "Kevin Kasongo",
+      "matricule": "E1-2025-007",
+      "photoUrl": "",
+      "classeId": 4,
+      "ecoleId": 1
+    },
+    {
+      "id": "8",
+      "nom": "Dina Lukusa",
+      "matricule": "E1-2025-008",
+      "photoUrl": "",
+      "classeId": 4,
+      "ecoleId": 1
+    },
+    {
+      "id": "9",
+      "nom": "Grace Kalonji",
+      "matricule": "E1-2025-009",
+      "photoUrl": "",
+      "classeId": 5,
+      "ecoleId": 1
+    },
+    {
+      "id": "10",
+      "nom": "David Mukendi",
+      "matricule": "E1-2025-010",
+      "photoUrl": "",
+      "classeId": 5,
+      "ecoleId": 1
+    },
+    {
+      "id": "11",
+      "nom": "Chantal Kabeya",
+      "matricule": "E2-2025-011",
+      "photoUrl": "",
+      "classeId": 6,
+      "ecoleId": 2
+    },
+    {
+      "id": "12",
+      "nom": "Yannick Tumba",
+      "matricule": "E2-2025-012",
+      "photoUrl": "",
+      "classeId": 6,
+      "ecoleId": 2
+    },
+    {
+      "id": "13",
+      "nom": "Rachel Katumbi",
+      "matricule": "E2-2025-013",
+      "photoUrl": "",
+      "classeId": 7,
+      "ecoleId": 2
+    },
+    {
+      "id": "14",
+      "nom": "Hervé Numbi",
+      "matricule": "E2-2025-014",
+      "photoUrl": "",
+      "classeId": 7,
+      "ecoleId": 2
+    },
+    {
+      "id": "15",
+      "nom": "Naomi Kanyeba",
+      "matricule": "E2-2025-015",
+      "photoUrl": "",
+      "classeId": 8,
+      "ecoleId": 2
+    },
+    {
+      "id": "16",
+      "nom": "Michel Banza",
+      "matricule": "E2-2025-016",
+      "photoUrl": "",
+      "classeId": 8,
+      "ecoleId": 2
+    },
+    {
+      "id": "17",
+      "nom": "Carine Ngoma",
+      "matricule": "E2-2025-017",
+      "photoUrl": "",
+      "classeId": 9,
+      "ecoleId": 2
+    },
+    {
+      "id": "18",
+      "nom": "Jonas Mbuyi",
+      "matricule": "E2-2025-018",
+      "photoUrl": "",
+      "classeId": 9,
+      "ecoleId": 2
+    },
+    {
+      "id": "19",
+      "nom": "Brigitte Muteba",
+      "matricule": "E2-2025-019",
+      "photoUrl": "",
+      "classeId": 10,
+      "ecoleId": 2
+    },
+    {
+      "id": "20",
+      "nom": "Alex Kashala",
+      "matricule": "E2-2025-020",
+      "photoUrl": "",
+      "classeId": 10,
+      "ecoleId": 2
+    }
+  ],
+  "classes": [
+    {
+      "id": "1",
+      "code": "1A",
+      "libelle": "6ème A",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 28,
+      "titulaire": "M. Kasa",
+      "label": "6ème A",
+      "ecoleId": 1
+    },
+    {
+      "id": "2",
+      "code": "6B",
+      "libelle": "6ème B",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 35,
+      "titulaire": "Mme Tumba",
+      "label": "6ème B",
+      "ecoleId": 1
+    },
+    {
+      "id": "3",
+      "code": "6C",
+      "libelle": "6ème C",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 32,
+      "titulaire": "M. Ilunga",
+      "label": "6ème C",
+      "ecoleId": 1
+    },
+    {
+      "id": "4",
+      "code": "1SA",
+      "libelle": "1ère Scientifique A",
+      "niveau": "1",
+      "filiere": "Scientifique",
+      "effectif": 31,
+      "titulaire": "—",
+      "label": "1ère Scientifique A",
+      "ecoleId": 1
+    },
+    {
+      "id": "5",
+      "code": "1SB",
+      "libelle": "1ère Scientifique B",
+      "niveau": "1",
+      "filiere": "Scientifique",
+      "effectif": 45,
+      "titulaire": "—",
+      "label": "1ère Scientifique B",
+      "ecoleId": 1
+    },
+    {
+      "id": "6",
+      "code": "6A",
+      "libelle": "6ème A",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 41,
+      "titulaire": "M. Kasa",
+      "label": "6ème A",
+      "ecoleId": 2
+    },
+    {
+      "id": "7",
+      "code": "6B",
+      "libelle": "6ème B",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 28,
+      "titulaire": "M. Kasa",
+      "label": "6ème B",
+      "ecoleId": 2
+    },
+    {
+      "id": "8",
+      "code": "6C",
+      "libelle": "6ème C",
+      "niveau": "6",
+      "filiere": "Scientifique",
+      "effectif": 34,
+      "titulaire": "M. Kasa",
+      "label": "6ème C",
+      "ecoleId": 2
+    },
+    {
+      "id": "9",
+      "code": "1SA",
+      "libelle": "1ère Scientifique A",
+      "niveau": "1",
+      "filiere": "Scientifique",
+      "effectif": 35,
+      "titulaire": "—",
+      "label": "1ère Scientifique A",
+      "ecoleId": 2
+    },
+    {
+      "id": "10",
+      "code": "1SB",
+      "libelle": "1ère Scientifique B",
+      "niveau": "1",
+      "filiere": "Scientifique",
+      "effectif": 44,
+      "titulaire": "—",
+      "label": "1ère Scientifique B",
+      "ecoleId": 2
+    }
+  ],
+  "periodes": [
+    {
+      "id": "201",
+      "label": "1ère",
+      "dateDebut": "2025-09-01",
+      "dateFin": "2025-10-15",
+      "active": true,
+      "ecoleId": null
+    },
+    {
+      "id": "202",
+      "label": "2ème",
+      "dateDebut": "2025-10-16",
+      "dateFin": "2025-11-30",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "203",
+      "label": "3ème",
+      "dateDebut": "2025-12-01",
+      "dateFin": "2026-01-15",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "204",
+      "label": "Examen P1",
+      "dateDebut": "2026-01-16",
+      "dateFin": "2026-01-31",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "205",
+      "label": "4ème",
+      "dateDebut": "2026-02-01",
+      "dateFin": "2026-03-15",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "206",
+      "label": "5ème",
+      "dateDebut": "2026-03-16",
+      "dateFin": "2026-04-30",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "207",
+      "label": "6ème",
+      "dateDebut": "2026-05-01",
+      "dateFin": "2026-06-15",
+      "active": false,
+      "ecoleId": null
+    },
+    {
+      "id": "208",
+      "label": "Examen Final",
+      "dateDebut": "2026-06-16",
+      "dateFin": "2026-06-30",
+      "active": false,
+      "ecoleId": null
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "nom": "Kabeya",
+      "prenom": "Paul",
+      "email": "paul@ecole1.com",
+      "matiere": "Math",
+      "statut": "Actif",
+      "ecoleId": 1
+    },
+    {
+      "id": "2",
+      "nom": "Ngoma",
+      "prenom": "Sophie",
+      "email": "sophie@ecole1.com",
+      "matiere": "Physique",
+      "statut": "Actif",
+      "ecoleId": 1
+    },
+    {
+      "id": "3",
+      "nom": "Mbuyi",
+      "prenom": "Jean",
+      "email": "jean@ecole1.com",
+      "matiere": "Français",
+      "statut": "Actif",
+      "ecoleId": 1
+    },
+    {
+      "id": "4",
+      "nom": "Mukendi",
+      "prenom": "Alice",
+      "email": "alice@ecole2.com",
+      "matiere": "SVT",
+      "statut": "Actif",
+      "ecoleId": 2
+    },
+    {
+      "id": "5",
+      "nom": "Kalonji",
+      "prenom": "Eric",
+      "email": "eric@ecole2.com",
+      "matiere": "Histoire",
+      "statut": "Actif",
+      "ecoleId": 2
+    },
+    {
+      "id": "6",
+      "nom": "Kasongo",
+      "prenom": "Nadia",
+      "email": "nadia@ecole2.com",
+      "matiere": "Anglais",
+      "statut": "Actif",
+      "ecoleId": 2
+    }
+  ],
+  "cours": [
+    {
+      "id": "1",
+      "code": "MAT201",
+      "matiere": "Math",
+      "intitule": "Math I",
+      "classeId": 5,
+      "teacherId": 1,
+      "volume": 48,
+      "periodeId": 204,
+      "ecoleId": 1
+    },
+    {
+      "id": "2",
+      "code": "MAT202",
+      "matiere": "Math",
+      "intitule": "Math II",
+      "classeId": 1,
+      "teacherId": 1,
+      "volume": 30,
+      "periodeId": 206,
+      "ecoleId": 1
+    },
+    {
+      "id": "3",
+      "code": "PHY203",
+      "matiere": "Physique",
+      "intitule": "Physique I",
+      "classeId": 4,
+      "teacherId": 2,
+      "volume": 30,
+      "periodeId": 201,
+      "ecoleId": 1
+    },
+    {
+      "id": "4",
+      "code": "PHY204",
+      "matiere": "Physique",
+      "intitule": "Physique II",
+      "classeId": 3,
+      "teacherId": 2,
+      "volume": 48,
+      "periodeId": 207,
+      "ecoleId": 1
+    },
+    {
+      "id": "5",
+      "code": "FRA205",
+      "matiere": "Français",
+      "intitule": "Français I",
+      "classeId": 3,
+      "teacherId": 3,
+      "volume": 36,
+      "periodeId": 203,
+      "ecoleId": 1
+    },
+    {
+      "id": "6",
+      "code": "FRA206",
+      "matiere": "Français",
+      "intitule": "Français II",
+      "classeId": 5,
+      "teacherId": 3,
+      "volume": 24,
+      "periodeId": 202,
+      "ecoleId": 1
+    },
+    {
+      "id": "7",
+      "code": "SVT207",
+      "matiere": "SVT",
+      "intitule": "SVT I",
+      "classeId": 6,
+      "teacherId": 4,
+      "volume": 36,
+      "periodeId": 202,
+      "ecoleId": 2
+    },
+    {
+      "id": "8",
+      "code": "SVT208",
+      "matiere": "SVT",
+      "intitule": "SVT II",
+      "classeId": 9,
+      "teacherId": 4,
+      "volume": 36,
+      "periodeId": 203,
+      "ecoleId": 2
+    },
+    {
+      "id": "9",
+      "code": "HIS209",
+      "matiere": "Histoire",
+      "intitule": "Histoire I",
+      "classeId": 6,
+      "teacherId": 5,
+      "volume": 24,
+      "periodeId": 202,
+      "ecoleId": 2
+    },
+    {
+      "id": "10",
+      "code": "HIS210",
+      "matiere": "Histoire",
+      "intitule": "Histoire II",
+      "classeId": 9,
+      "teacherId": 5,
+      "volume": 36,
+      "periodeId": 204,
+      "ecoleId": 2
+    },
+    {
+      "id": "11",
+      "code": "ANG211",
+      "matiere": "Anglais",
+      "intitule": "Anglais I",
+      "classeId": 10,
+      "teacherId": 6,
+      "volume": 24,
+      "periodeId": 204,
+      "ecoleId": 2
+    },
+    {
+      "id": "12",
+      "code": "ANG212",
+      "matiere": "Anglais",
+      "intitule": "Anglais II",
+      "classeId": 8,
+      "teacherId": 6,
+      "volume": 24,
+      "periodeId": 206,
+      "ecoleId": 2
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "1",
+      "eleveId": 9,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 12.9,
+      "obs": ""
+    },
+    {
+      "id": "2",
+      "eleveId": 9,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Interro",
+      "coef": 1,
+      "note": 9.1,
+      "obs": ""
+    },
+    {
+      "id": "3",
+      "eleveId": 9,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Examen",
+      "coef": 3,
+      "note": 11.6,
+      "obs": ""
+    },
+    {
+      "id": "4",
+      "eleveId": 10,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 17.9,
+      "obs": ""
+    },
+    {
+      "id": "5",
+      "eleveId": 10,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Interro",
+      "coef": 1,
+      "note": 16.1,
+      "obs": ""
+    },
+    {
+      "id": "6",
+      "eleveId": 10,
+      "periodeId": 204,
+      "coursId": 1,
+      "matiere": "Math",
+      "type": "Examen",
+      "coef": 3,
+      "note": 10.4,
+      "obs": ""
+    },
+    {
+      "id": "7",
+      "eleveId": 1,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 8.9,
+      "obs": ""
+    },
+    {
+      "id": "8",
+      "eleveId": 1,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Interro",
+      "coef": 1,
+      "note": 12.9,
+      "obs": ""
+    },
+    {
+      "id": "9",
+      "eleveId": 1,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Examen",
+      "coef": 3,
+      "note": 8.7,
+      "obs": ""
+    },
+    {
+      "id": "10",
+      "eleveId": 2,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 15.6,
+      "obs": ""
+    },
+    {
+      "id": "11",
+      "eleveId": 2,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Interro",
+      "coef": 1,
+      "note": 15.7,
+      "obs": ""
+    },
+    {
+      "id": "12",
+      "eleveId": 2,
+      "periodeId": 206,
+      "coursId": 2,
+      "matiere": "Math",
+      "type": "Examen",
+      "coef": 3,
+      "note": 9.3,
+      "obs": ""
+    },
+    {
+      "id": "13",
+      "eleveId": 8,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 10.7,
+      "obs": ""
+    },
+    {
+      "id": "14",
+      "eleveId": 8,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Interro",
+      "coef": 1,
+      "note": 16.7,
+      "obs": ""
+    },
+    {
+      "id": "15",
+      "eleveId": 8,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Examen",
+      "coef": 3,
+      "note": 12.2,
+      "obs": ""
+    },
+    {
+      "id": "16",
+      "eleveId": 7,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 10.1,
+      "obs": ""
+    },
+    {
+      "id": "17",
+      "eleveId": 7,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Interro",
+      "coef": 1,
+      "note": 13.4,
+      "obs": ""
+    },
+    {
+      "id": "18",
+      "eleveId": 7,
+      "periodeId": 201,
+      "coursId": 3,
+      "matiere": "Physique",
+      "type": "Examen",
+      "coef": 3,
+      "note": 15.3,
+      "obs": ""
+    },
+    {
+      "id": "19",
+      "eleveId": 5,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 12,
+      "obs": ""
+    },
+    {
+      "id": "20",
+      "eleveId": 5,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Interro",
+      "coef": 1,
+      "note": 14.7,
+      "obs": ""
+    },
+    {
+      "id": "21",
+      "eleveId": 5,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Examen",
+      "coef": 3,
+      "note": 11.7,
+      "obs": ""
+    },
+    {
+      "id": "22",
+      "eleveId": 6,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 17,
+      "obs": ""
+    },
+    {
+      "id": "23",
+      "eleveId": 6,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Interro",
+      "coef": 1,
+      "note": 12.5,
+      "obs": ""
+    },
+    {
+      "id": "24",
+      "eleveId": 6,
+      "periodeId": 207,
+      "coursId": 4,
+      "matiere": "Physique",
+      "type": "Examen",
+      "coef": 3,
+      "note": 10.5,
+      "obs": ""
+    },
+    {
+      "id": "25",
+      "eleveId": 5,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 8.2,
+      "obs": ""
+    },
+    {
+      "id": "26",
+      "eleveId": 5,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Interro",
+      "coef": 1,
+      "note": 13.5,
+      "obs": ""
+    },
+    {
+      "id": "27",
+      "eleveId": 5,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Examen",
+      "coef": 3,
+      "note": 13.9,
+      "obs": ""
+    },
+    {
+      "id": "28",
+      "eleveId": 6,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 8.1,
+      "obs": ""
+    },
+    {
+      "id": "29",
+      "eleveId": 6,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Interro",
+      "coef": 1,
+      "note": 15.1,
+      "obs": ""
+    },
+    {
+      "id": "30",
+      "eleveId": 6,
+      "periodeId": 203,
+      "coursId": 5,
+      "matiere": "Français",
+      "type": "Examen",
+      "coef": 3,
+      "note": 8.6,
+      "obs": ""
+    },
+    {
+      "id": "31",
+      "eleveId": 9,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 16.6,
+      "obs": ""
+    },
+    {
+      "id": "32",
+      "eleveId": 9,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Interro",
+      "coef": 1,
+      "note": 8.7,
+      "obs": ""
+    },
+    {
+      "id": "33",
+      "eleveId": 9,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Examen",
+      "coef": 3,
+      "note": 10.4,
+      "obs": ""
+    },
+    {
+      "id": "34",
+      "eleveId": 10,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 14.7,
+      "obs": ""
+    },
+    {
+      "id": "35",
+      "eleveId": 10,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Interro",
+      "coef": 1,
+      "note": 10.1,
+      "obs": ""
+    },
+    {
+      "id": "36",
+      "eleveId": 10,
+      "periodeId": 202,
+      "coursId": 6,
+      "matiere": "Français",
+      "type": "Examen",
+      "coef": 3,
+      "note": 9.3,
+      "obs": ""
+    },
+    {
+      "id": "37",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 15.8,
+      "obs": ""
+    },
+    {
+      "id": "38",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Interro",
+      "coef": 1,
+      "note": 16.1,
+      "obs": ""
+    },
+    {
+      "id": "39",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Examen",
+      "coef": 3,
+      "note": 9.9,
+      "obs": ""
+    },
+    {
+      "id": "40",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 9,
+      "obs": ""
+    },
+    {
+      "id": "41",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Interro",
+      "coef": 1,
+      "note": 12.3,
+      "obs": ""
+    },
+    {
+      "id": "42",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 7,
+      "matiere": "SVT",
+      "type": "Examen",
+      "coef": 3,
+      "note": 12.2,
+      "obs": ""
+    },
+    {
+      "id": "43",
+      "eleveId": 18,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 14.7,
+      "obs": ""
+    },
+    {
+      "id": "44",
+      "eleveId": 18,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Interro",
+      "coef": 1,
+      "note": 17.8,
+      "obs": ""
+    },
+    {
+      "id": "45",
+      "eleveId": 18,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Examen",
+      "coef": 3,
+      "note": 9,
+      "obs": ""
+    },
+    {
+      "id": "46",
+      "eleveId": 17,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 12,
+      "obs": ""
+    },
+    {
+      "id": "47",
+      "eleveId": 17,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Interro",
+      "coef": 1,
+      "note": 11.4,
+      "obs": ""
+    },
+    {
+      "id": "48",
+      "eleveId": 17,
+      "periodeId": 203,
+      "coursId": 8,
+      "matiere": "SVT",
+      "type": "Examen",
+      "coef": 3,
+      "note": 16.6,
+      "obs": ""
+    },
+    {
+      "id": "49",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 9.9,
+      "obs": ""
+    },
+    {
+      "id": "50",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Interro",
+      "coef": 1,
+      "note": 12.5,
+      "obs": ""
+    },
+    {
+      "id": "51",
+      "eleveId": 11,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Examen",
+      "coef": 3,
+      "note": 12.2,
+      "obs": ""
+    },
+    {
+      "id": "52",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 10.8,
+      "obs": ""
+    },
+    {
+      "id": "53",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Interro",
+      "coef": 1,
+      "note": 10.5,
+      "obs": ""
+    },
+    {
+      "id": "54",
+      "eleveId": 12,
+      "periodeId": 202,
+      "coursId": 9,
+      "matiere": "Histoire",
+      "type": "Examen",
+      "coef": 3,
+      "note": 17.2,
+      "obs": ""
+    },
+    {
+      "id": "55",
+      "eleveId": 18,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 8.5,
+      "obs": ""
+    },
+    {
+      "id": "56",
+      "eleveId": 18,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Interro",
+      "coef": 1,
+      "note": 18,
+      "obs": ""
+    },
+    {
+      "id": "57",
+      "eleveId": 18,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Examen",
+      "coef": 3,
+      "note": 16.4,
+      "obs": ""
+    },
+    {
+      "id": "58",
+      "eleveId": 17,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 17.7,
+      "obs": ""
+    },
+    {
+      "id": "59",
+      "eleveId": 17,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Interro",
+      "coef": 1,
+      "note": 17.3,
+      "obs": ""
+    },
+    {
+      "id": "60",
+      "eleveId": 17,
+      "periodeId": 204,
+      "coursId": 10,
+      "matiere": "Histoire",
+      "type": "Examen",
+      "coef": 3,
+      "note": 16.5,
+      "obs": ""
+    },
+    {
+      "id": "61",
+      "eleveId": 19,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 12.9,
+      "obs": ""
+    },
+    {
+      "id": "62",
+      "eleveId": 19,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Interro",
+      "coef": 1,
+      "note": 10.1,
+      "obs": ""
+    },
+    {
+      "id": "63",
+      "eleveId": 19,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Examen",
+      "coef": 3,
+      "note": 12,
+      "obs": ""
+    },
+    {
+      "id": "64",
+      "eleveId": 20,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 8.6,
+      "obs": ""
+    },
+    {
+      "id": "65",
+      "eleveId": 20,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Interro",
+      "coef": 1,
+      "note": 11.8,
+      "obs": ""
+    },
+    {
+      "id": "66",
+      "eleveId": 20,
+      "periodeId": 204,
+      "coursId": 11,
+      "matiere": "Anglais",
+      "type": "Examen",
+      "coef": 3,
+      "note": 17.9,
+      "obs": ""
+    },
+    {
+      "id": "67",
+      "eleveId": 16,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 10.9,
+      "obs": ""
+    },
+    {
+      "id": "68",
+      "eleveId": 16,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Interro",
+      "coef": 1,
+      "note": 15,
+      "obs": ""
+    },
+    {
+      "id": "69",
+      "eleveId": 16,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Examen",
+      "coef": 3,
+      "note": 15.3,
+      "obs": ""
+    },
+    {
+      "id": "70",
+      "eleveId": 15,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 15.8,
+      "obs": ""
+    },
+    {
+      "id": "71",
+      "eleveId": 15,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Interro",
+      "coef": 1,
+      "note": 14.6,
+      "obs": ""
+    },
+    {
+      "id": "72",
+      "eleveId": 15,
+      "periodeId": 206,
+      "coursId": 12,
+      "matiere": "Anglais",
+      "type": "Examen",
+      "coef": 3,
+      "note": 12.9,
+      "obs": ""
+    },
+    {
+      "id": "a50d",
+      "eleveId": "1",
+      "periodeId": 201,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 7,
+      "obs": ""
+    },
+    {
+      "id": "5382",
+      "eleveId": "2",
+      "periodeId": 201,
+      "matiere": "Math",
+      "type": "Devoir",
+      "coef": 1,
+      "note": 12,
+      "obs": ""
+    }
+  ],
+  "bulletinsMeta": [
+    {
+      "id": "1",
+      "eleveId": 7,
+      "periodeId": 201,
+      "observationsGenerales": "Doit renforcer la méthodologie de travail.",
+      "rank": 9
+    },
+    {
+      "id": "2",
+      "eleveId": 10,
+      "periodeId": 203,
+      "observationsGenerales": "Bon trimestre, participation active.",
+      "rank": 9
+    },
+    {
+      "id": "3",
+      "eleveId": 20,
+      "periodeId": 202,
+      "observationsGenerales": "Ensemble satisfaisant, peut mieux faire en sciences.",
+      "rank": 2
+    },
+    {
+      "id": "4",
+      "eleveId": 2,
+      "periodeId": 202,
+      "observationsGenerales": "Ensemble satisfaisant, peut mieux faire en sciences.",
+      "rank": 7
+    },
+    {
+      "id": "5",
+      "eleveId": 17,
+      "periodeId": 202,
+      "observationsGenerales": "Ensemble satisfaisant, peut mieux faire en sciences.",
+      "rank": 10
+    },
+    {
+      "id": "6",
+      "eleveId": 12,
+      "periodeId": 201,
+      "observationsGenerales": "Bon trimestre, participation active.",
+      "rank": 7
+    },
+    {
+      "id": "7",
+      "eleveId": 6,
+      "periodeId": 206,
+      "observationsGenerales": "Très sérieux et régulier.",
+      "rank": 4
+    },
+    {
+      "id": "8",
+      "eleveId": 1,
+      "periodeId": 206,
+      "observationsGenerales": "Ensemble satisfaisant, peut mieux faire en sciences.",
+      "rank": 5
+    }
+  ],
+  "interros": [
+    {
+      "id": "1",
+      "titre": "Interro Math",
+      "type": "Surprise",
+      "date": "2026-01-23",
+      "coursId": 1,
+      "bareme": 10
+    },
+    {
+      "id": "2",
+      "titre": "Interro Math",
+      "type": "Programmée",
+      "date": "2026-04-25",
+      "coursId": 2,
+      "bareme": 10
+    },
+    {
+      "id": "3",
+      "titre": "Interro Physique",
+      "type": "Surprise",
+      "date": "2025-10-14",
+      "coursId": 3,
+      "bareme": 10
+    },
+    {
+      "id": "4",
+      "titre": "Interro Physique",
+      "type": "Surprise",
+      "date": "2026-05-25",
+      "coursId": 4,
+      "bareme": 10
+    },
+    {
+      "id": "5",
+      "titre": "Interro Français",
+      "type": "Programmée",
+      "date": "2025-12-03",
+      "coursId": 5,
+      "bareme": 10
+    },
+    {
+      "id": "6",
+      "titre": "Interro Français",
+      "type": "Programmée",
+      "date": "2025-11-26",
+      "coursId": 6,
+      "bareme": 10
+    },
+    {
+      "id": "7",
+      "titre": "Interro SVT",
+      "type": "Programmée",
+      "date": "2025-11-20",
+      "coursId": 7,
+      "bareme": 10
+    },
+    {
+      "id": "8",
+      "titre": "Interro SVT",
+      "type": "Surprise",
+      "date": "2025-12-09",
+      "coursId": 8,
+      "bareme": 10
+    },
+    {
+      "id": "9",
+      "titre": "Interro Histoire",
+      "type": "Surprise",
+      "date": "2025-10-26",
+      "coursId": 9,
+      "bareme": 10
+    },
+    {
+      "id": "10",
+      "titre": "Interro Histoire",
+      "type": "Programmée",
+      "date": "2026-01-24",
+      "coursId": 10,
+      "bareme": 10
+    },
+    {
+      "id": "11",
+      "titre": "Interro Anglais",
+      "type": "Surprise",
+      "date": "2026-01-29",
+      "coursId": 11,
+      "bareme": 10
+    },
+    {
+      "id": "12",
+      "titre": "Interro Anglais",
+      "type": "Surprise",
+      "date": "2026-03-22",
+      "coursId": 12,
+      "bareme": 10
+    }
+  ],
+  "examens": [
+    {
+      "id": "1",
+      "titre": "Examen Math",
+      "type": "Final",
+      "session": "Rattrapage",
+      "date": "2026-01-18",
+      "coursId": 1,
+      "bareme": 18
+    },
+    {
+      "id": "2",
+      "titre": "Examen Math",
+      "type": "Partiel",
+      "session": "Rattrapage",
+      "date": "2026-03-26",
+      "coursId": 2,
+      "bareme": 20
+    },
+    {
+      "id": "3",
+      "titre": "Examen Physique",
+      "type": "Partiel",
+      "session": "Normale",
+      "date": "2025-09-05",
+      "coursId": 3,
+      "bareme": 18
+    },
+    {
+      "id": "4",
+      "titre": "Examen Physique",
+      "type": "Final",
+      "session": "Normale",
+      "date": "2026-06-10",
+      "coursId": 4,
+      "bareme": 15
+    },
+    {
+      "id": "5",
+      "titre": "Examen Français",
+      "type": "Partiel",
+      "session": "Rattrapage",
+      "date": "2025-12-26",
+      "coursId": 5,
+      "bareme": 15
+    },
+    {
+      "id": "6",
+      "titre": "Examen Français",
+      "type": "Final",
+      "session": "Normale",
+      "date": "2025-11-10",
+      "coursId": 6,
+      "bareme": 15
+    },
+    {
+      "id": "7",
+      "titre": "Examen SVT",
+      "type": "Final",
+      "session": "Rattrapage",
+      "date": "2025-11-01",
+      "coursId": 7,
+      "bareme": 15
+    },
+    {
+      "id": "8",
+      "titre": "Examen SVT",
+      "type": "Partiel",
+      "session": "Normale",
+      "date": "2026-01-01",
+      "coursId": 8,
+      "bareme": 20
+    },
+    {
+      "id": "9",
+      "titre": "Examen Histoire",
+      "type": "Final",
+      "session": "Rattrapage",
+      "date": "2025-11-12",
+      "coursId": 9,
+      "bareme": 20
+    },
+    {
+      "id": "10",
+      "titre": "Examen Histoire",
+      "type": "Final",
+      "session": "Normale",
+      "date": "2026-01-19",
+      "coursId": 10,
+      "bareme": 18
+    },
+    {
+      "id": "11",
+      "titre": "Examen Anglais",
+      "type": "Final",
+      "session": "Normale",
+      "date": "2026-01-30",
+      "coursId": 11,
+      "bareme": 20
+    },
+    {
+      "id": "12",
+      "titre": "Examen Anglais",
+      "type": "Final",
+      "session": "Normale",
+      "date": "2026-04-04",
+      "coursId": 12,
+      "bareme": 20
+    }
+  ],
+  "devoirs": [
+    {
+      "id": "1",
+      "titre": "Devoir Math",
+      "dateRemise": "2026-01-25",
+      "coursId": 1,
+      "bareme": 20,
+      "statut": "Publié",
+      "periodeId": 204
+    },
+    {
+      "id": "2",
+      "titre": "Devoir Math",
+      "dateRemise": "2026-04-08",
+      "coursId": 2,
+      "bareme": 20,
+      "statut": "Brouillon",
+      "periodeId": 206
+    },
+    {
+      "id": "3",
+      "titre": "Devoir Physique",
+      "dateRemise": "2025-10-12",
+      "coursId": 3,
+      "bareme": 20,
+      "statut": "Archivé",
+      "periodeId": 201
+    },
+    {
+      "id": "4",
+      "titre": "Devoir Physique",
+      "dateRemise": "2026-05-18",
+      "coursId": 4,
+      "bareme": 20,
+      "statut": "Archivé",
+      "periodeId": 207
+    },
+    {
+      "id": "5",
+      "titre": "Devoir Français",
+      "dateRemise": "2025-12-21",
+      "coursId": 5,
+      "bareme": 20,
+      "statut": "Publié",
+      "periodeId": 203
+    },
+    {
+      "id": "6",
+      "titre": "Devoir Français",
+      "dateRemise": "2025-11-16",
+      "coursId": 6,
+      "bareme": 20,
+      "statut": "Publié",
+      "periodeId": 202
+    },
+    {
+      "id": "7",
+      "titre": "Devoir SVT",
+      "dateRemise": "2025-11-19",
+      "coursId": 7,
+      "bareme": 20,
+      "statut": "Archivé",
+      "periodeId": 202
+    },
+    {
+      "id": "8",
+      "titre": "Devoir SVT",
+      "dateRemise": "2026-01-02",
+      "coursId": 8,
+      "bareme": 20,
+      "statut": "Publié",
+      "periodeId": 203
+    },
+    {
+      "id": "9",
+      "titre": "Devoir Histoire",
+      "dateRemise": "2025-11-28",
+      "coursId": 9,
+      "bareme": 20,
+      "statut": "Brouillon",
+      "periodeId": 202
+    },
+    {
+      "id": "10",
+      "titre": "Devoir Histoire",
+      "dateRemise": "2026-01-16",
+      "coursId": 10,
+      "bareme": 20,
+      "statut": "Archivé",
+      "periodeId": 204
+    },
+    {
+      "id": "11",
+      "titre": "Devoir Anglais",
+      "dateRemise": "2026-01-21",
+      "coursId": 11,
+      "bareme": 20,
+      "statut": "Archivé",
+      "periodeId": 204
+    },
+    {
+      "id": "12",
+      "titre": "Devoir Anglais",
+      "dateRemise": "2026-04-25",
+      "coursId": 12,
+      "bareme": 20,
+      "statut": "Publié",
+      "periodeId": 206
+    }
+  ],
+  "presences": [
+    {
+      "id": "p0001",
+      "date": "2025-09-15",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 10,
+      "statut": "R",
+      "teacherId": 1
+    },
+    {
+      "id": "p0002",
+      "date": "2025-09-15",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 9,
+      "statut": "R",
+      "teacherId": 1
+    },
+    {
+      "id": "p0003",
+      "date": "2025-09-22",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 10,
+      "statut": "A",
+      "teacherId": 1
+    },
+    {
+      "id": "p0004",
+      "date": "2025-09-22",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 9,
+      "statut": "P",
+      "teacherId": 1
+    },
+    {
+      "id": "p0005",
+      "date": "2025-09-29",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 9,
+      "statut": "R",
+      "teacherId": 1
+    },
+    {
+      "id": "p0006",
+      "date": "2025-09-29",
+      "classeId": 5,
+      "coursId": 1,
+      "eleveId": 10,
+      "statut": "R",
+      "teacherId": 1
+    },
+    {
+      "id": "p0007",
+      "date": "2025-09-15",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 1,
+      "statut": "R",
+      "teacherId": 1
+    },
+    {
+      "id": "p0008",
+      "date": "2025-09-15",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 2,
+      "statut": "P",
+      "teacherId": 1
+    },
+    {
+      "id": "p0009",
+      "date": "2025-09-22",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 2,
+      "statut": "A",
+      "teacherId": 1
+    },
+    {
+      "id": "p0010",
+      "date": "2025-09-22",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 1,
+      "statut": "P",
+      "teacherId": 1
+    },
+    {
+      "id": "p0011",
+      "date": "2025-09-29",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 1,
+      "statut": "A",
+      "teacherId": 1
+    },
+    {
+      "id": "p0012",
+      "date": "2025-09-29",
+      "classeId": 1,
+      "coursId": 2,
+      "eleveId": 2,
+      "statut": "P",
+      "teacherId": 1
+    },
+    {
+      "id": "p0013",
+      "date": "2025-09-15",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 8,
+      "statut": "R",
+      "teacherId": 2
+    },
+    {
+      "id": "p0014",
+      "date": "2025-09-15",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 7,
+      "statut": "R",
+      "teacherId": 2
+    },
+    {
+      "id": "p0015",
+      "date": "2025-09-22",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 7,
+      "statut": "R",
+      "teacherId": 2
+    },
+    {
+      "id": "p0016",
+      "date": "2025-09-22",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 8,
+      "statut": "P",
+      "teacherId": 2
+    },
+    {
+      "id": "p0017",
+      "date": "2025-09-29",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 7,
+      "statut": "P",
+      "teacherId": 2
+    },
+    {
+      "id": "p0018",
+      "date": "2025-09-29",
+      "classeId": 4,
+      "coursId": 3,
+      "eleveId": 8,
+      "statut": "P",
+      "teacherId": 2
+    },
+    {
+      "id": "p0019",
+      "date": "2025-09-15",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 5,
+      "statut": "A",
+      "teacherId": 2
+    },
+    {
+      "id": "p0020",
+      "date": "2025-09-15",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 6,
+      "statut": "R",
+      "teacherId": 2
+    },
+    {
+      "id": "p0021",
+      "date": "2025-09-22",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 5,
+      "statut": "P",
+      "teacherId": 2
+    },
+    {
+      "id": "p0022",
+      "date": "2025-09-22",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 6,
+      "statut": "R",
+      "teacherId": 2
+    },
+    {
+      "id": "p0023",
+      "date": "2025-09-29",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 6,
+      "statut": "A",
+      "teacherId": 2
+    },
+    {
+      "id": "p0024",
+      "date": "2025-09-29",
+      "classeId": 3,
+      "coursId": 4,
+      "eleveId": 5,
+      "statut": "P",
+      "teacherId": 2
+    },
+    {
+      "id": "p0025",
+      "date": "2025-09-15",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 5,
+      "statut": "A",
+      "teacherId": 3
+    },
+    {
+      "id": "p0026",
+      "date": "2025-09-15",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 6,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0027",
+      "date": "2025-09-22",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 5,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0028",
+      "date": "2025-09-22",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 6,
+      "statut": "R",
+      "teacherId": 3
+    },
+    {
+      "id": "p0029",
+      "date": "2025-09-29",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 6,
+      "statut": "R",
+      "teacherId": 3
+    },
+    {
+      "id": "p0030",
+      "date": "2025-09-29",
+      "classeId": 3,
+      "coursId": 5,
+      "eleveId": 5,
+      "statut": "A",
+      "teacherId": 3
+    },
+    {
+      "id": "p0031",
+      "date": "2025-09-15",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 10,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0032",
+      "date": "2025-09-15",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 9,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0033",
+      "date": "2025-09-22",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 9,
+      "statut": "A",
+      "teacherId": 3
+    },
+    {
+      "id": "p0034",
+      "date": "2025-09-22",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 10,
+      "statut": "R",
+      "teacherId": 3
+    },
+    {
+      "id": "p0035",
+      "date": "2025-09-29",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 9,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0036",
+      "date": "2025-09-29",
+      "classeId": 5,
+      "coursId": 6,
+      "eleveId": 10,
+      "statut": "P",
+      "teacherId": 3
+    },
+    {
+      "id": "p0037",
+      "date": "2025-09-15",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 12,
+      "statut": "P",
+      "teacherId": 4
+    },
+    {
+      "id": "p0038",
+      "date": "2025-09-15",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 11,
+      "statut": "A",
+      "teacherId": 4
+    },
+    {
+      "id": "p0039",
+      "date": "2025-09-22",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 11,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0040",
+      "date": "2025-09-22",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 12,
+      "statut": "P",
+      "teacherId": 4
+    },
+    {
+      "id": "p0041",
+      "date": "2025-09-29",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 12,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0042",
+      "date": "2025-09-29",
+      "classeId": 6,
+      "coursId": 7,
+      "eleveId": 11,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0043",
+      "date": "2025-09-15",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 17,
+      "statut": "P",
+      "teacherId": 4
+    },
+    {
+      "id": "p0044",
+      "date": "2025-09-15",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 18,
+      "statut": "P",
+      "teacherId": 4
+    },
+    {
+      "id": "p0045",
+      "date": "2025-09-22",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 18,
+      "statut": "P",
+      "teacherId": 4
+    },
+    {
+      "id": "p0046",
+      "date": "2025-09-22",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 17,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0047",
+      "date": "2025-09-29",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 18,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0048",
+      "date": "2025-09-29",
+      "classeId": 9,
+      "coursId": 8,
+      "eleveId": 17,
+      "statut": "R",
+      "teacherId": 4
+    },
+    {
+      "id": "p0049",
+      "date": "2025-09-15",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 11,
+      "statut": "P",
+      "teacherId": 5
+    },
+    {
+      "id": "p0050",
+      "date": "2025-09-15",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 12,
+      "statut": "R",
+      "teacherId": 5
+    },
+    {
+      "id": "p0051",
+      "date": "2025-09-22",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 11,
+      "statut": "P",
+      "teacherId": 5
+    },
+    {
+      "id": "p0052",
+      "date": "2025-09-22",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 12,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0053",
+      "date": "2025-09-29",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 11,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0054",
+      "date": "2025-09-29",
+      "classeId": 6,
+      "coursId": 9,
+      "eleveId": 12,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0055",
+      "date": "2025-09-15",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 18,
+      "statut": "P",
+      "teacherId": 5
+    },
+    {
+      "id": "p0056",
+      "date": "2025-09-15",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 17,
+      "statut": "P",
+      "teacherId": 5
+    },
+    {
+      "id": "p0057",
+      "date": "2025-09-22",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 17,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0058",
+      "date": "2025-09-22",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 18,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0059",
+      "date": "2025-09-29",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 17,
+      "statut": "A",
+      "teacherId": 5
+    },
+    {
+      "id": "p0060",
+      "date": "2025-09-29",
+      "classeId": 9,
+      "coursId": 10,
+      "eleveId": 18,
+      "statut": "R",
+      "teacherId": 5
+    },
+    {
+      "id": "p0061",
+      "date": "2025-09-15",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 20,
+      "statut": "P",
+      "teacherId": 6
+    },
+    {
+      "id": "p0062",
+      "date": "2025-09-15",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 19,
+      "statut": "P",
+      "teacherId": 6
+    },
+    {
+      "id": "p0063",
+      "date": "2025-09-22",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 20,
+      "statut": "R",
+      "teacherId": 6
+    },
+    {
+      "id": "p0064",
+      "date": "2025-09-22",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 19,
+      "statut": "A",
+      "teacherId": 6
+    },
+    {
+      "id": "p0065",
+      "date": "2025-09-29",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 19,
+      "statut": "R",
+      "teacherId": 6
+    },
+    {
+      "id": "p0066",
+      "date": "2025-09-29",
+      "classeId": 10,
+      "coursId": 11,
+      "eleveId": 20,
+      "statut": "A",
+      "teacherId": 6
+    },
+    {
+      "id": "p0067",
+      "date": "2025-09-15",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 16,
+      "statut": "A",
+      "teacherId": 6
+    },
+    {
+      "id": "p0068",
+      "date": "2025-09-15",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 15,
+      "statut": "R",
+      "teacherId": 6
+    },
+    {
+      "id": "p0069",
+      "date": "2025-09-22",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 15,
+      "statut": "R",
+      "teacherId": 6
+    },
+    {
+      "id": "p0070",
+      "date": "2025-09-22",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 16,
+      "statut": "P",
+      "teacherId": 6
+    },
+    {
+      "id": "p0071",
+      "date": "2025-09-29",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 16,
+      "statut": "R",
+      "teacherId": 6
+    },
+    {
+      "id": "p0072",
+      "date": "2025-09-29",
+      "classeId": 8,
+      "coursId": 12,
+      "eleveId": 15,
+      "statut": "A",
+      "teacherId": 6
+    }
+  ],
+  "seances": [
+    {
+      "id": "1",
+      "jour": 1,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 5,
+      "coursId": 1,
+      "teacherId": 1,
+      "salle": "C2"
+    },
+    {
+      "id": "2",
+      "jour": 5,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 5,
+      "coursId": 1,
+      "teacherId": 1,
+      "salle": "B1"
+    },
+    {
+      "id": "3",
+      "jour": 2,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 5,
+      "coursId": 1,
+      "teacherId": 1,
+      "salle": "C1"
+    },
+    {
+      "id": "4",
+      "jour": 3,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 1,
+      "coursId": 2,
+      "teacherId": 1,
+      "salle": "B1"
+    },
+    {
+      "id": "5",
+      "jour": 1,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 1,
+      "coursId": 2,
+      "teacherId": 1,
+      "salle": "B2"
+    },
+    {
+      "id": "6",
+      "jour": 6,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 1,
+      "coursId": 2,
+      "teacherId": 1,
+      "salle": "C2"
+    },
+    {
+      "id": "7",
+      "jour": 3,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 4,
+      "coursId": 3,
+      "teacherId": 2,
+      "salle": "C2"
+    },
+    {
+      "id": "8",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 4,
+      "coursId": 3,
+      "teacherId": 2,
+      "salle": "C2"
+    },
+    {
+      "id": "9",
+      "jour": 2,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 4,
+      "coursId": 3,
+      "teacherId": 2,
+      "salle": "A2"
+    },
+    {
+      "id": "10",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 3,
+      "coursId": 4,
+      "teacherId": 2,
+      "salle": "B1"
+    },
+    {
+      "id": "11",
+      "jour": 6,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 3,
+      "coursId": 4,
+      "teacherId": 2,
+      "salle": "A2"
+    },
+    {
+      "id": "12",
+      "jour": 3,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 3,
+      "coursId": 4,
+      "teacherId": 2,
+      "salle": "B2"
+    },
+    {
+      "id": "13",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 3,
+      "coursId": 5,
+      "teacherId": 3,
+      "salle": "C2"
+    },
+    {
+      "id": "14",
+      "jour": 6,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 3,
+      "coursId": 5,
+      "teacherId": 3,
+      "salle": "A2"
+    },
+    {
+      "id": "15",
+      "jour": 3,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 3,
+      "coursId": 5,
+      "teacherId": 3,
+      "salle": "C1"
+    },
+    {
+      "id": "16",
+      "jour": 4,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 5,
+      "coursId": 6,
+      "teacherId": 3,
+      "salle": "A2"
+    },
+    {
+      "id": "17",
+      "jour": 2,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 5,
+      "coursId": 6,
+      "teacherId": 3,
+      "salle": "C2"
+    },
+    {
+      "id": "18",
+      "jour": 1,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 5,
+      "coursId": 6,
+      "teacherId": 3,
+      "salle": "B1"
+    },
+    {
+      "id": "19",
+      "jour": 2,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 6,
+      "coursId": 7,
+      "teacherId": 4,
+      "salle": "B2"
+    },
+    {
+      "id": "20",
+      "jour": 6,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 6,
+      "coursId": 7,
+      "teacherId": 4,
+      "salle": "C1"
+    },
+    {
+      "id": "21",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 6,
+      "coursId": 7,
+      "teacherId": 4,
+      "salle": "A1"
+    },
+    {
+      "id": "22",
+      "jour": 4,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 9,
+      "coursId": 8,
+      "teacherId": 4,
+      "salle": "B2"
+    },
+    {
+      "id": "23",
+      "jour": 6,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 9,
+      "coursId": 8,
+      "teacherId": 4,
+      "salle": "A2"
+    },
+    {
+      "id": "24",
+      "jour": 2,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 9,
+      "coursId": 8,
+      "teacherId": 4,
+      "salle": "A2"
+    },
+    {
+      "id": "25",
+      "jour": 6,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 6,
+      "coursId": 9,
+      "teacherId": 5,
+      "salle": "C2"
+    },
+    {
+      "id": "26",
+      "jour": 1,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 6,
+      "coursId": 9,
+      "teacherId": 5,
+      "salle": "C1"
+    },
+    {
+      "id": "27",
+      "jour": 5,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 6,
+      "coursId": 9,
+      "teacherId": 5,
+      "salle": "B2"
+    },
+    {
+      "id": "28",
+      "jour": 1,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 9,
+      "coursId": 10,
+      "teacherId": 5,
+      "salle": "B2"
+    },
+    {
+      "id": "29",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 9,
+      "coursId": 10,
+      "teacherId": 5,
+      "salle": "C2"
+    },
+    {
+      "id": "30",
+      "jour": 2,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 9,
+      "coursId": 10,
+      "teacherId": 5,
+      "salle": "C1"
+    },
+    {
+      "id": "31",
+      "jour": 5,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 10,
+      "coursId": 11,
+      "teacherId": 6,
+      "salle": "A2"
+    },
+    {
+      "id": "32",
+      "jour": 6,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 10,
+      "coursId": 11,
+      "teacherId": 6,
+      "salle": "C2"
+    },
+    {
+      "id": "33",
+      "jour": 3,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 10,
+      "coursId": 11,
+      "teacherId": 6,
+      "salle": "B2"
+    },
+    {
+      "id": "34",
+      "jour": 4,
+      "start": "14:00",
+      "end": "17:00",
+      "classeId": 8,
+      "coursId": 12,
+      "teacherId": 6,
+      "salle": "C2"
+    },
+    {
+      "id": "35",
+      "jour": 3,
+      "start": "11:00",
+      "end": "14:00",
+      "classeId": 8,
+      "coursId": 12,
+      "teacherId": 6,
+      "salle": "A2"
+    },
+    {
+      "id": "36",
+      "jour": 2,
+      "start": "08:00",
+      "end": "11:00",
+      "classeId": 8,
+      "coursId": 12,
+      "teacherId": 6,
+      "salle": "B1"
+    }
+  ]
+}
