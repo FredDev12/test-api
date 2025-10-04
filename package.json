@@ -1,0 +1,16 @@
+{
+  "name": "test-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    
+  "dev": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "serverless-http": "^3.2.0",
+    "undici": "^6.19.8",
+    "uuid": "^9.0.1"
+  }
+}
